@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="pageLoader" class="page-loader">
+    <div class="loader-content">
+        <div class="loader-spinner"></div>
+        <p>Loading Environmental Studies...</p>
+    </div>
+</div>
+
+<header>
+    <div class="header-content">
+        <div class="header-info">
+            <h1>Environmental Studies Institute</h1>
+            <p>Leading research and education for a sustainable future</p>
+        </div>
+        <div class="contact-info">
+            <span>📧 info@ecostudies.edu</span>
+            <span>📞 +91- 8368843551</span>
+        </div>
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="disciplines.html">Disciplines</a></li>
+        <li><a href="importance.html">Importance</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+</nav>
+
+<section class="content-section">
+    <div class="disciplines-filter">
+        <h2>Explore Environmental Disciplines</h2>
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All Fields</button>
+            <button class="filter-btn" data-filter="science">Natural Sciences</button>
+            <button class="filter-btn" data-filter="social">Social Sciences</button>
+            <button class="filter-btn" data-filter="applied">Applied Fields</button>
+        </div>
+    </div>
+
+    <div class="disciplines-grid">
+        <div class="discipline-card clickable-card" data-category="science">
+            <div class="discipline-icon">🧬</div>
+            <h3>Biology</h3>
+            <p>Ecosystems, biodiversity, species interactions, and conservation biology</p>
+
+            <div class="expanded-content" style="display: none;">
+                <h4>Core Areas:</h4>
+                <ul>
+                    <li>Ecology and ecosystem dynamics</li>
+                    <li>Wildlife conservation and management</li>
+                    <li>Marine and freshwater biology</li>
+                    <li>Plant physiology and botany</li>
+                </ul>
+                <h4>Career Paths:</h4>
+                <p>Wildlife biologist, conservation scientist, marine biologist, environmental consultant, park ranger</p>
+                <h4>Skills Developed:</h4>
+                <p>Field research, data analysis, species identification, habitat assessment, scientific writing</p>
+            </div>
+        </div>
+
+        <div class="discipline-card clickable-card" data-category="science">
+            <div class="discipline-icon">⚗️</div>
+            <h3>Chemistry</h3>
+            <p>Pollution analysis, chemical reactions, and biogeochemical cycles</p>
+
+            <div class="expanded-content" style="display: none;">
+                <h4>Core Areas:</h4>
+                <ul>
+                    <li>Water and air quality analysis</li>
+                    <li>Soil contamination assessment</li>
+                    <li>Green chemistry and sustainable processes</li>
+                    <li>Atmospheric chemistry and climate</li>
+                </ul>
+                <h4>Career Paths:</h4>
+                <p>Environmental chemist, analytical chemist, pollution control specialist, laboratory manager</p>
+                <h4>Skills Developed:</h4>
+                <p>Laboratory techniques, chemical analysis, instrumentation, quality control, regulatory compliance</p>
+            </div>
+        </div>
+
+        <div class="discipline-card clickable-card" data-category="science">
+            <div class="discipline-icon">⚡</div>
+            <h3>Physics</h3>
+            <p>Energy systems, climate dynamics, and renewable technologies</p>
+
+            <div class="expanded-content" style="display: none;">
+                <h4>Core Areas:</h4>
+                <ul>
+                    <li>Renewable energy systems</li>
+                    <li>Climate modeling and simulation</li>
+                    <li>Environmental radiation and monitoring</li>
+                    <li>Energy efficiency and conservation</li>
+                </ul>
+                <h4>Career Paths:</h4>
+                <p>Environmental physicist, energy analyst, climate modeler, renewable energy engineer</p>
+                <h4>Skills Developed:</h4>
+                <p>Mathematical modeling, data analysis, instrumentation, energy systems design</p>
+            </div>
+        </div>
+
+        <div class="discipline-card clickable-card" data-category="social">
+            <div class="discipline-icon">💰</div>
+            <h3>Economics</h3>
+            <p>Resource valuation, cost-benefit analysis, and sustainable development</p>
+
+            <div class="expanded-content" style="display: none;">
+                <h4>Core Areas:</h4>
+                <ul>
+                    <li>Natural resource economics</li>
+                    <li>Environmental impact assessment</li>
+                    <li>Carbon markets and trading</li>
+                    <li>Sustainable development economics</li>
+                </ul>
+                <h4>Career Paths:</h4>
+                <p>Environmental economist, policy analyst, sustainability consultant, carbon market specialist</p>
+                <h4>Skills Developed:</h4>
+                <p>Economic analysis, cost-benefit evaluation, market research, policy development</p>
+            </div>
+        </div>
+
+        <div class="discipline-card clickable-card" data-category="social">
+            <div class="discipline-icon">👥</div>
+            <h3>Sociology</h3>
+            <p>Human behavior, communities, and environmental justice</p>
+
+            <div class="expanded-content" style="display: none;">
+                <h4>Core Areas:</h4>
+                <ul>
+                    <li>Environmental justice and equity</li>
+                    <li>Community-based conservation</li>
+                    <li>Social movements and activism</li>
+                    <li>Environmental behavior change</li>
+                </ul>
+                <h4>Career Paths:</h4>
+                <p>Environmental sociologist, community organizer, social researcher, policy advocate</p>
+                <h4>Skills Developed:</h4>
+                <p>Social research, community engagement, advocacy, program evaluation</p>
+            </div>
+        </div>
+
+        <div class="discipline-card clickable-card" data-category="applied">
+            <div class="discipline-icon">⚖️</div>
+            <h3>Environmental Law</h3>
+            <p>Legislation, regulations, and environmental rights</p>
+
+            <div class="expanded-content" style="display: none;">
+                <h4>Core Areas:</h4>
+                <ul>
+                    <li>Environmental regulations and compliance</li>
+                    <li>Climate change law and policy</li>
+                    <li>Natural resources law</li>
+                    <li>International environmental agreements</li>
+                </ul>
+                <h4>Career Paths:</h4>
+                <p>Environmental lawyer, policy advisor, compliance officer, legal consultant</p>
+                <h4>Skills Developed:</h4>
+                <p>Legal research, regulatory analysis, negotiation, policy drafting</p>
+            </div>
+        </div>
+
+        <div class="discipline-card clickable-card" data-category="applied">
+            <div class="discipline-icon">🔧</div>
+            <h3>Engineering</h3>
+            <p>Clean technologies, waste management, and green infrastructure</p>
+
+            <div class="expanded-content" style="display: none;">
+                <h4>Core Areas:</h4>
+                <ul>
+                    <li>Water and wastewater treatment</li>
+                    <li>Air pollution control systems</li>
+                    <li>Renewable energy infrastructure</li>
+                    <li>Sustainable building design</li>
+                </ul>
+                <h4>Career Paths:</h4>
+                <p>Environmental engineer, sustainability engineer, project manager, design consultant</p>
+                <h4>Skills Developed:</h4>
+                <p>System design, project management, technical analysis, problem solving</p>
+            </div>
+        </div>
+
+        <div class="discipline-card clickable-card" data-category="science">
+            <div class="discipline-icon">🌍</div>
+            <h3>Geography</h3>
+            <p>Spatial analysis, climate zones, and resource distribution</p>
+
+            <div class="expanded-content" style="display: none;">
+                <h4>Core Areas:</h4>
+                <ul>
+                    <li>Geographic Information Systems (GIS)</li>
+                    <li>Remote sensing and satellite imagery</li>
+                    <li>Climate and weather analysis</li>
+                    <li>Land use and urban planning</li>
+                </ul>
+                <h4>Career Paths:</h4>
+                <p>GIS analyst, environmental planner, cartographer, remote sensing specialist</p>
+                <h4>Skills Developed:</h4>
+                <p>GIS software, spatial analysis, mapping, data visualization</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="disciplines-quiz">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+            <h2>Match the Discipline</h2>
+            <button id="refreshDisciplineQuiz" class="btn-primary" style="padding: 8px 16px;">🔄 New Question</button>
+        </div>
+        <div class="quiz-question" data-answer="a">
+            <h3>Which field studies the economic value of natural resources?</h3>
+            <div class="quiz-options">
+                <button class="quiz-option" data-value="a">Environmental Economics</button>
+                <button class="quiz-option" data-value="b">Environmental Chemistry</button>
+                <button class="quiz-option" data-value="c">Environmental Biology</button>
+            </div>
+            <p class="quiz-feedback"></p>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="https://www.nature.com/subjects/environmental-sciences">Research</a></li>
+                <li><a href="https://www.sciencedirect.com/journal/environmental-science-and-policy">Publications</a></li>
+                <li><a href="https://www.earthday.org/events/">Events</a></li>
+                <li><a href="https://www.environmentalscience.org/careers">Careers</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Contact</h3>
+            <p>Tecnia Institute of Advanced Studies<br>Industrial Area, Madhuban Chowk, Rohini, Delhi-110085</p>
+            <p>Phone: +91- 8368843551<br>Email: info@ecostudies.edu</p>
+        </div>
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+            <div class="social-links">
+                <a href="https://facebook.com/ecostudies">📘 Facebook</a>
+                <a href="https://twitter.com/ecostudies">🐦 Twitter</a>
+                <a href="https://instagram.com/ecostudies">📸 Instagram</a>
+                <a href="https://linkedin.com/company/ecostudy">💼 LinkedIn</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2025 Environmental Studies Institute. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

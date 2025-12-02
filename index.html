@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="pageLoader" class="page-loader">
+    <div class="loader-content">
+        <div class="loader-spinner"></div>
+        <p>Loading Environmental Studies...</p>
+    </div>
+</div>
+
+<header>
+    <div class="header-content">
+        <div class="header-info">
+            <h1>Environmental Studies Institute</h1>
+            <p>Leading research and education for a sustainable future</p>
+        </div>
+        <div class="contact-info">
+            <span>📧 info@ecostudies.edu</span>
+            <span>📞 +91- 8368843551</span>
+        </div>
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="disciplines.html">Disciplines</a></li>
+        <li><a href="importance.html">Importance</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+</nav>
+
+<section class="content-section">
+    <div class="hero">
+        <div class="hero-text">
+            <h2>Welcome to Environmental Studies</h2>
+            <p>
+                Environmental Studies connects nature, science, and society.  
+                It uses knowledge from Biology, Chemistry, Geography, Economics, Sociology, Law, and Technology
+                to understand our planet and solve environmental challenges such as climate change, pollution,
+                and biodiversity loss.
+            </p>
+            <p>
+                Explore how a multidisciplinary approach can create sustainable solutions for the present and 
+                future generations.
+            </p>
+            <div class="hero-actions">
+                <a href="disciplines.html" class="btn-primary">Explore Disciplines</a>
+                <div class="quick-fact" data-tooltip="Did you know? Environmental studies emerged as a field in the 1960s during the environmental movement!">💡 Quick Fact</div>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="images/hero-environment.jpg" alt="Mountain landscape and forest representing environment">
+        </div>
+    </div>
+</section>
+
+<section class="content-section">
+    <h2 class="collapsible-header" data-target="focus-areas">Key Focus Areas <span class="toggle-icon">▼</span></h2>
+    <div id="focus-areas" class="collapsible-content">
+        <div class="cards">
+        <div class="card">
+            <h3>Climate Action</h3>
+            <p>
+                Understanding climate patterns, greenhouse gases, and global warming to support mitigation
+                and adaptation strategies that protect communities and ecosystems.
+            </p>
+            <ul>
+                <li>Carbon footprint reduction strategies</li>
+                <li>Renewable energy transition planning</li>
+                <li>Climate resilience building</li>
+                <li>International climate policy analysis</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Conservation</h3>
+            <p>
+                Protecting forests, wildlife, and biodiversity through scientific research, environmental law,
+                and community-based conservation initiatives.
+            </p>
+            <ul>
+                <li>Habitat restoration projects</li>
+                <li>Endangered species protection</li>
+                <li>Marine ecosystem preservation</li>
+                <li>National park management</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Sustainable Development</h3>
+            <p>
+                Balancing economic growth with environmental protection and social justice through sustainable
+                policies and technologies.
+            </p>
+            <ul>
+                <li>Green infrastructure development</li>
+                <li>Circular economy implementation</li>
+                <li>Sustainable urban planning</li>
+                <li>Corporate sustainability programs</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Public Awareness</h3>
+            <p>
+                Educating citizens, policymakers, and businesses about environmental issues and encouraging
+                responsible behavior and green lifestyles.
+            </p>
+            <ul>
+                <li>Environmental education campaigns</li>
+                <li>Community outreach programs</li>
+                <li>Social media advocacy</li>
+                <li>Policy maker engagement</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</section>
+
+<section class="content-section">
+    <h2>Environmental Impact Statistics <button id="refreshStats" class="refresh-btn">🔄 Refresh</button></h2>
+    <div class="stats-grid">
+        <div class="stat-card clickable" data-stat="climate">
+            <div class="stat-number" data-target="421">0</div>
+            <div class="stat-label">CO₂ PPM in Atmosphere</div>
+        </div>
+        <div class="stat-card clickable" data-stat="species">
+            <div class="stat-number" data-target="41415">0</div>
+            <div class="stat-label">Species Threatened (IUCN)</div>
+        </div>
+        <div class="stat-card clickable" data-stat="renewable">
+            <div class="stat-number" data-target="29.1">0</div>
+            <div class="stat-label">% Global Renewable Energy</div>
+        </div>
+        <div class="stat-card clickable" data-stat="deforestation">
+            <div class="stat-number" data-target="10.2">0</div>
+            <div class="stat-label">Million Hectares Lost/Year</div>
+        </div>
+    </div>
+</section>
+
+<section class="content-section">
+    <h2>Our Planet in Pictures</h2>
+    <p>Visual snapshots of the natural systems and resources that Environmental Studies aims to protect. Click any image to view larger.</p>
+    <div class="image-grid">
+        <img src="images/forest.jpg" alt="Dense green forest ecosystem">
+        <img src="images/river.jpg" alt="Clean river flowing through rocks">
+        <img src="images/wind-turbines.jpg" alt="Wind turbines for renewable energy">
+        <img src="images/city-green.jpg" alt="City with green spaces and trees">
+    </div>
+</section>
+
+<section class="content-section">
+    <h2>Test Your Knowledge</h2>
+    <div class="quiz-selector">
+        <h3>Choose a Quiz Set (5 questions each):</h3>
+        <div class="quiz-sets">
+            <button class="quiz-set-btn" data-set="0">Set 1: Basics</button>
+            <button class="quiz-set-btn" data-set="1">Set 2: Climate</button>
+            <button class="quiz-set-btn" data-set="2">Set 3: Energy</button>
+            <button class="quiz-set-btn" data-set="3">Set 4: Pollution</button>
+            <button class="quiz-set-btn" data-set="4">Set 5: Conservation</button>
+            <button class="quiz-set-btn" data-set="5">Set 6: Sustainability</button>
+            <button class="quiz-set-btn" data-set="6">Set 7: Ecosystems</button>
+            <button class="quiz-set-btn" data-set="7">Set 8: Resources</button>
+            <button class="quiz-set-btn" data-set="8">Set 9: Policy</button>
+            <button class="quiz-set-btn" data-set="9">Set 10: Advanced</button>
+        </div>
+    </div>
+    
+    <div class="slideshow-quiz" style="display:none;">
+        <div class="quiz-header">
+            <span id="quizSetTitle">Quiz Set 1</span>
+            <span id="questionCounter">Question 1 of 5</span>
+            <div class="live-score">Score: <span id="liveScore">0/0</span></div>
+            <div class="quiz-progress">
+                <div id="slideProgressBar" class="quiz-progress-bar"></div>
+            </div>
+        </div>
+
+        <div class="quiz-slide-container">
+            <div class="quiz-slide active">
+                <h3 id="currentQuestion">Select a quiz set to begin</h3>
+                <div class="quiz-options" id="currentOptions">
+                </div>
+                <p class="quiz-feedback" id="currentFeedback"></p>
+            </div>
+        </div>
+
+        <div class="quiz-navigation">
+            <button id="backToSets" class="nav-btn">← Back to Sets</button>
+            <button id="nextBtn" class="nav-btn" disabled>Next →</button>
+            <button id="finishBtn" class="btn-primary" style="display:none">Finish Quiz</button>
+        </div>
+
+        <p id="slideQuizResult"></p>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="https://www.nature.com/subjects/environmental-sciences">Research</a></li>
+                <li><a href="https://www.sciencedirect.com/journal/environmental-science-and-policy">Publications</a></li>
+                <li><a href="https://www.earthday.org/events/">Events</a></li>
+                <li><a href="https://www.environmentalscience.org/careers">Careers</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Contact</h3>
+            <p>Tecnia Institute of Advanced Studies<br>Industrial Area, Madhuban Chowk, Rohini, Delhi-110085</p>
+            <p>Phone: +91- 8368843551<br>Email: info@ecostudies.edu</p>
+        </div>
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+            <div class="social-links">
+                <a href="https://facebook.com/ecostudies">📘 Facebook</a>
+                <a href="https://twitter.com/ecostudies">🐦 Twitter</a>
+                <a href="https://instagram.com/ecostudies">📸 Instagram</a>
+                <a href="https://linkedin.com/company/ecostudy">💼 LinkedIn</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2025 Environmental Studies Institute. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
